@@ -1,0 +1,23 @@
+body {
+  min-height: 100vh;
+  background-color: hsla(0, 0%, 34%, 0.9);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: hsla(0, 86%, 44%, 0);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: hsla(0, 0%, 34%, 0.9);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsla(0, 0%, 34%, 0.2);
+}
+::-webkit-scrollbar-thumb:active {
+  background: hsla(0, 0%, 34%, 0.2);
+}
