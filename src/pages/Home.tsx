@@ -1,5 +1,12 @@
+import { AboutSection, MainSection } from 'modules/Home/components';
+
 const HomePage = () => {
-  return <h1>Home Works!</h1>;
+  return (
+    <>
+      <MainSection />
+      <AboutSection />
+    </>
+  );
 };
 
 export default HomePage;
