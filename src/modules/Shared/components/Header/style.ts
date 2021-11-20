@@ -8,7 +8,7 @@ export const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
   position: absolute;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 0 10%;
   z-index: 9;
 
@@ -32,7 +32,7 @@ export const NavContainer = styled.nav`
 
   a {
     font-size: 20px;
-    margin-left: 8px;
+    margin-left: 25px;
     text-transform: uppercase;
 
     :hover {
