@@ -1,13 +1,9 @@
+import { MainContainer } from 'modules/Shared/components/style';
 import styled from 'styled-components';
 
-export const MainSectionContainer = styled.main`
-  height: 100vh;
+export const MainSectionContainer = styled(MainContainer)`
   background: url('assets/images/Barbershop04.jpg');
   background-size: cover;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  padding: 10%;
   color: white;
 
   &::before {
