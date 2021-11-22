@@ -1,5 +1,12 @@
+import { Scheduler } from 'modules/Schedule/components';
+import { SchedulePageContainer } from 'modules/Schedule/style';
+
 const SchedulePage = () => {
-  return <h1>Schedule Works!</h1>;
+  return (
+    <SchedulePageContainer>
+      <Scheduler />
+    </SchedulePageContainer>
+  );
 };
 
 export default SchedulePage;
