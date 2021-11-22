@@ -1,5 +1,11 @@
+import { AboutSection } from 'modules/Home/components';
+
 const AboutPage = () => {
-  return <h1>About Works!</h1>;
+  return (
+    <>
+      <AboutSection />
+    </>
+  );
 };
 
 export default AboutPage;
