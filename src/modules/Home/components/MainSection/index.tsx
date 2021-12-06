@@ -14,7 +14,7 @@ const MainSection = () => {
         </div>
         <div className="down-content">
           <div className="button-group">
-            <Button variant="contained">Agende Agora!</Button>
+            <Button variant="contained">Agende Agora !</Button>
             <Button variant="outlined">Entre em contato</Button>
           </div>
         </div>

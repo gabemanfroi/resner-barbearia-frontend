@@ -1,5 +1,5 @@
 import BaseService from '../services/BaseService';
-import { ServiceType } from '../types/ServiceType';
+import { ServiceType } from '../types';
 
 class ServiceService extends BaseService<ServiceType> {
   constructor() {

@@ -5,14 +5,37 @@ import { variables } from 'modules/Shared/style';
 
 export const SchedulerContainer = styled(Paper)`
   height: 100%;
-  padding: 24px;
+  padding: 10%;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   background-color: #1a1a1a !important;
   backdrop-filter: blur(35px);
+
+  .inputs-container {
+    display: flex;
+    flex: 1;
+  }
+
+  .schedule-button {
+    width: 250px;
+  }
+
+  .times-container {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-items: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+
+    .times-column {
+      margin: 0 6px;
+    }
+  }
 `;
 
 export const SchedulerTextField = styled(TextField)`
@@ -24,7 +47,6 @@ export const SchedulerTextField = styled(TextField)`
 
   .MuiOutlinedInput-notchedOutline {
     border-color: ${variables.main};
-
     box-shadow: ${variables.mainBoxShadow};
   }
 `;

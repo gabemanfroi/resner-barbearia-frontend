@@ -10,7 +10,6 @@ export const AboutSectionContainer = styled.section`
   align-content: center;
   justify-content: center;
   padding: 10%;
-  color: #000000;
 
   .quem-somos-primeiro,
   .quem-somos-segundo {
@@ -31,6 +30,7 @@ export const AboutSectionContainer = styled.section`
       }
       p {
         font-size: 20px;
+        color: black !important;
       }
     }
 

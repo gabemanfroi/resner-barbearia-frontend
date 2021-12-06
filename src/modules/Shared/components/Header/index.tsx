@@ -1,10 +1,11 @@
 import { HeaderContainer, NavContainer } from './style';
 import HeaderNavItem from '../HeaderNavItem';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <HeaderContainer>
-      <div className="logo-container"></div>
+      <Link to="" className="logo-container" />
       <NavContainer>
         <ul>
           <HeaderNavItem href="" title="Início" />
